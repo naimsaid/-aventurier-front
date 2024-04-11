@@ -1,0 +1,18 @@
+<body (keydown)="onKeyDown($event)">
+  <div class="map">
+    <div *ngFor="let row of carte; let i = index" class="row">
+      <div *ngFor="let cell of row.split(''); let j = index" class="cell" [ngClass]="{'hero': isHeroPosition(i, j)}">
+        {{ cell }}
+      </div>
+    </div>
+  </div>
+  
+  <div class="controls">
+    <button (click)="moveHero('N')">Nord</button>
+    <button (click)="moveHero('S')">Sud</button>
+    <button (click)="moveHero('E')">Est</button>
+    <button (click)="moveHero('W')">Ouest</button>
+  </div>
+  
+  </body>
+  

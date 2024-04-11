@@ -1,0 +1,23 @@
+.cell {
+    display: inline-block;
+    width: 20px; /* Ajustez la largeur selon vos besoins */
+    height: 20px; /* Ajustez la hauteur selon vos besoins */
+    border: 0px solid black; /* Bordure pour séparer les cellules */
+    font-family: monospace; /* Utilisez une police à largeur fixe pour conserver la mise en forme */
+  }
+  
+  .map {
+    font-family: monospace; /* Utilisez une police à largeur fixe pour conserver la mise en forme */
+  }
+  
+  .row {
+    display: block; /* Chaque ligne de la carte sera affichée sur une nouvelle ligne */
+  }
+  
+
+  .hero {
+    border: 2px solid red; /* Utilisez une bordure colorée pour représenter le héros */
+    box-sizing: border-box; /* Inclure la bordure dans la taille totale de l'élément */
+  }
+  
+  
